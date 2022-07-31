@@ -1,2 +1,22 @@
 # JSON-Generator-with-String
-JSON-Generator-with-String
+
+```
+สคริปนี้สำหรับสร้างไฟล์ JSON โดยการใช้ "String" เพื่อกำหนดเส้นทางไฟล์
+```
+ตัวอย่างเช่น "something.a1.b1.c1"<br />
+ไฟล์จะถูกสร้างเป็นจะถูกสร้างเป็นตามตัวอย่างนี้
+```json
+  {
+    "something": {
+      "a1": {
+        "b1": {
+          "c1" {}
+         }
+      }
+    }
+  }
+```
+
+- แก้ไข path สำหรับ save json ไฟล์
+- แก้ไข input สำหรับสร้าง json ไฟล์
+- รันได้เลยไม่ต้องลง module
